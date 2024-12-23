@@ -1,0 +1,111 @@
+:root {
+    --primary-color: #005f73;
+    --accent-color: #94d2bd;
+    --background-color: #f5f5f5;
+    --text-color: #333;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+  
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  header ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: color 0.3s;
+  }
+  
+  header ul li a:hover {
+    color: var(--accent-color);
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero button {
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .hero button:hover {
+    background-color: #fff;
+  }
+  
+  .section {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 1rem 0;
+  }
+  
+  .event-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px var(--card-shadow);
+    padding: 1.5rem;
+    text-align: left;
+  }
+  
+  .event-card h3 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  footer a {
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+  
