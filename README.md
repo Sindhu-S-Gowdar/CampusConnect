@@ -1,2 +1,2 @@
 # CampusConnect
-this contains all the project files of CampusConnect project
+this contains all the project files of CampusConnect project...
